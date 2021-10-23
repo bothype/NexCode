@@ -15,6 +15,13 @@
   outline: 0;
   box-shadow: 0 0 0 0;
 }
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 10px;
+grid-row-gap: 0px;
+}
 </style>
 <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
 <div class="container-fluid">
@@ -48,8 +55,8 @@ Tutorials/Learn
 </div>
 </nav>
 <main style="mrgin-top:60px;">
-<div class="container row row-cols-1 row-cols-sm-2 row-cols-md-3"">
-<div class="col">
+<div class="container parent">
+<div>
 <div class="icon-square bg-light text-dark flex-shrink-1 me-3">
 <i class="fab fa-html5"></i>
 </div>
@@ -61,7 +68,7 @@ Primary button
 </a>
 </div>
 </div>
-<div class="col">
+<div>
 <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
 <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
 </div>
@@ -73,7 +80,7 @@ Primary button
 </a>
 </div>
 </div>
-<div class="col">
+<div>
 <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
 <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
 </div>
