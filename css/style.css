@@ -32,11 +32,11 @@ grid-row-gap: 0px;
 hr{opacity:0.1;}
 .code-box {
   position:relative;
-  background-color:#e6f4ea;
-  color:#1a6a37;
+  background-color:#cee2fe;
+  color:#0d6efd;
   line-height:0.7 !important;
   padding:10px;
-  border:1px solid #e6f4ea;
+  border:1px solid #cee2fe;
   border-radius:6px;
   overflow-x:scroll;
 }
@@ -50,5 +50,5 @@ hr{opacity:0.1;}
   height:7px
 }
 .code-box::-webkit-scrollbar-thumb {
-  border-radius:10px;background-color:#1a6a37
+  border-radius:10px;background-color:#0d6efd
 }
