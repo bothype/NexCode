@@ -30,3 +30,13 @@ grid-row-gap: 0px;
 .bg-green-400{color:#000;background-color:#479f76}
 .doc{margin-top:10px;}
 hr{opacity:0.1;}
+.codebox{
+  position:relative;
+  display:block;
+  background-color:rgba(155,170,175,0.12);
+  color:#000;
+  white-space:pre-wrap;
+  padding:16px;
+  border:0;
+  border-radius:8px;
+}
